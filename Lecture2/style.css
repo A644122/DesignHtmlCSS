@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* h1 {
+  margin: 20px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  transition: all ease 2s;
+} */
+/* h1:hover {
+  /* background-color: gray;
+  color: yellow; */
+/* transform: rotateX(40deg); */
+/* transform: rotateY(190deg); */
+/* transform: rotateX(90deg);
+  transform: rotateY(90deg);
+  transform: rotateZ(90deg); */
+/* transform: scale(1.75); */
+/* transform: scale(1, 3); */
+/* transform: scaleY(0.36); */
+/* transform: skew(20deg); */
+/* transform: translate(-100px); */
+/* } */
+
+.load {
+  margin: 50px auto;
+  background-color: gray;
+  background: transparent;
+  width: 300px;
+  height: 300px;
+  border: 20px solid rgb(154, 167, 3);
+  border-radius: 50%;
+  border-top: 20px solid red;
+  animation: loding ease-in-out 2s infinite alternate-reverse;
+}
+.heading {
+  text-align: center;
+  margin-top: 20px;
+}
+@keyframes loding {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
