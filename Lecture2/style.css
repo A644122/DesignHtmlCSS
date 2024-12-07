@@ -36,7 +36,7 @@
   border: 20px solid rgb(154, 167, 3);
   border-radius: 50%;
   border-top: 20px solid red;
-  animation: loding ease-in-out 2s infinite alternate-reverse;
+  /* animation: loding ease-in-out 2s infinite alternate-reverse; */
 }
 .heading {
   text-align: center;
